@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Precedence-aware robust UAV-UGV planning"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Multi-Agent-Robotics-and-Autonomy-Lab/precedence-aware-uav-ugv-planning"
+authors:
+  - family-names: Er
+    given-names: Cahit Ikbal
+    affiliation: Northeastern University
+  - family-names: Yazıcıoğlu
+    given-names: Yasin
+    affiliation: Northeastern University
+preferred-citation:
+  type: article
+  title: "Robust and Scalable UAV-UGV Planning for Aerial Monitoring under Energy and Precedence Constraints"
+  authors:
+    - family-names: Er
+      given-names: Cahit Ikbal
+    - family-names: Yazıcıoğlu
+      given-names: Yasin
+  year: 2026
+  journal: "arXiv preprint arXiv:2610.12670"
+  doi: "10.48550/arXiv.2610.12670"
+  url: "https://arxiv.org/abs/2610.12670"

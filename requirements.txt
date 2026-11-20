@@ -1,0 +1,8 @@
+numpy>=1.21
+matplotlib>=3.5
+pytest>=7
+
+# Optional, only for uav_ugv_precedence/branch_and_cut.py. The pip package
+# includes a size-limited licence that is enough for the tiny instances the
+# examples and tests use.
+# gurobipy>=11

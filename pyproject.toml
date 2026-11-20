@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uav-ugv-precedence"
+version = "1.0.0"
+description = "Precedence-aware robust planning for energy-constrained UAV-UGV teams in aerial monitoring missions"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Cahit Ikbal Er" },
+    { name = "Yasin Yazıcıoğlu" },
+]
+keywords = ["UAV", "UGV", "multi-robot planning", "precedence constraints",
+            "energy-aware planning", "vehicle routing"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: OS Independent",
+]
+dependencies = ["numpy>=1.21", "matplotlib>=3.5"]
+
+[project.optional-dependencies]
+gurobi = ["gurobipy>=11"]
+test = ["pytest>=7"]
+
+[project.urls]
+Paper = "https://doi.org/10.48550/arXiv.2610.12670"
+Repository = "https://github.com/Multi-Agent-Robotics-and-Autonomy-Lab/precedence-aware-uav-ugv-planning"
+
+[tool.setuptools]
+packages = ["uav_ugv_precedence"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
