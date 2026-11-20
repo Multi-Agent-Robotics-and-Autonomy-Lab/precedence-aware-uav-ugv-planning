@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Tools
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Figures written by the examples
+outputs/
+
+# Gurobi
+gurobi.log
+*.ilp
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
